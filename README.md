@@ -8,7 +8,7 @@ This repo offers the basic code structure to get started building LangGraph work
 ```txt
 ├── LICENSE
 ├── README.md
-├── jest.config.js # Test confgiguration
+├── jest.config.js # Test configuration
 ├── .env # Define environment variables. Can copy over from .env.example
 ├── langgraph.json # LangGraph studio configuration
 ├── my-app
