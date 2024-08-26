@@ -1,9 +1,7 @@
 {
-  "node_version": "v20.16.0",
-  "dockerfile_lines": [],
-  "dependencies": ["."],
+  "node_version": "20",
   "graphs": {
-    "agent": "./graph.ts:graph"
+    "agent": "./my-app/graph.ts:graph"
   },
   "env": ".env"
 }
