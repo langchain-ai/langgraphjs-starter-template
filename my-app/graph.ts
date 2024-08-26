@@ -64,4 +64,4 @@ const workflow = new StateGraph(State)
   .addEdge("__start__", "callModel")
   .addConditionalEdges("callModel", _route);
 
-export const graph: any = workflow.compile();
+export const graph = workflow.compile();
