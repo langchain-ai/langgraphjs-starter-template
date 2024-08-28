@@ -1,5 +1,5 @@
 import { describe, it, expect } from "@jest/globals";
-import { graph } from "../../my-app/graph.js";
+import { graph } from "../src/agent/graph.js";
 describe("Researcher", () => {
   it("Simple runthrough", async () => {
     const res = await graph.invoke({ input: "ExampleInput" });
